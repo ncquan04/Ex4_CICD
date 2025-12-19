@@ -28,7 +28,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: quannc/it4409-sample:staging
+          tags: ncquan04/it4409-sample:staging
 
   deploy:
     name: Deploy to Server
